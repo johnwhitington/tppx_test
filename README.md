@@ -1,2 +1,14 @@
 # tppx_test
-Testing the documentation for tppx in Tast_mapper
+Example typed PPX. Now we can do:
+
+`ocamlopt -tppx tppx_test example.ml`
+
+and see:
+
+```
+$ocamlopt -tppx ./tppx_showtype example.ml 
+42
+```
+
+Do not try to install -- ocamlfind doesn't know about tppx (yet).
+

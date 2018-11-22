@@ -1,0 +1,4 @@
+name="tppx_test"
+description="Example for Tast_mapper"
+version="0.1"
+tppx="./tppx_test"
