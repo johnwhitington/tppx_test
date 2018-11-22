@@ -1,5 +1,4 @@
 open Tast_mapper
-open Asttypes
 
 let () = Random.self_init ()
 
@@ -16,5 +15,5 @@ let newmapper argv =
   }
 
 let () =
-  Tast_mapper.register "tppx_test" newmapper
+  register "tppx_test" newmapper
 
